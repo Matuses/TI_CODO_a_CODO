@@ -1,0 +1,64 @@
+.max-width-500 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+
+.card-img-top {
+    border: none;
+}
+
+#text-d1d {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo-img {
+    background-image: url(../imagenes_integrador_front/ba1.jpg);
+    background-color: rgba(0, 0, 0, 0.7); /* Transparencia 50% del Fondo */
+    background-blend-mode: multiply; /* Multiplicación efecto de atenuación */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    padding: 90px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+footer{
+    background: linear-gradient(to right, #1b3743, #1E5371); /* degradado de Azul a Celeste */
+} 
+#confbsas .d-flex.justify-content-end button {
+    margin-right: 10px;
+    
+}
+
+@media (max-width: 576px) {
+    .h5,h5 {
+    font-size: 1rem;
+        }
+    
+    .row-cols-4>* {
+        width: 100%;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .justify-content-center {
+        padding-top: .25rem!important
+    }
+    .fondo-img {
+        height: 55vh;
+    }
+    }
